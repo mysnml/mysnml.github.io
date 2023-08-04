@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soldado Kallejero | MYSN</title>
+    <!-- Favicon -->
+    <link rel="icon" href="sk.png" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome icons 2 -->
+    <script src="https://kit.fontawesome.com/10a39ba333.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.oncontextmenu = function () {
+            return false;
+        }
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+                return false;
+            }
+        });
+    </script>
+    <script>
+document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 85)) {
+            return false;
+        }
+};
+</script>
+  </head>
+
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="soldier.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="soldier.png" target="_blank">
+            <img src="soldier.png" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          "Soldado Kallejero"
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+    <div id="Name" style="font-weight: bold;">
+      Soldado Kallejero&nbsp;&nbsp;<i class="fa-solid fa-circle-check" style="color: #005eff;" title="Verificado"></i>
+    </div>
+    <div id="userName">
+      @soldadokallejero
+      </div>
+    <p>Luis Olvera a.K.a. Soldado Kallejero <br> Rapero Procedente De Irapuato Guanajuato 🇲🇽</p>
+
+    <div id="links">
+        <a class="link" href="https://open.spotify.com/artist/346dGu9BGevJr0KMBt115C" target="_blank">
+        <i class="fab fa-spotify">&nbsp;</i>Spotify
+        <a class="link" href="https://music.apple.com/us/artist/soldado-kallejero/1493717373" target="_blank">
+        <i class="fa fa-music">&nbsp;</i>Apple Music
+        <a class="link" href="https://www.deezer.com/es/artist/8406860" target="_blank">
+        <i class="fa-brands fa-deezer">&nbsp;</i>Deezer
+        <a class="link" href="https://music.amazon.com.mx/artists/B00XYD6B6M/soldado-kallejero" target="_blank">
+        <i class="fa-brands fa-amazon">&nbsp;</i>Amazon Music
+        <a class="link" href="https://www.youtube.com/c/soldadokallejeroofficial" target="_blank">
+        <i class="fab fa-youtube">&nbsp;</i>YouTube
+        <a class="link" href="https://www.instagram.com/soldadokallejero13/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+        <a class="link" href="https://www.facebook.com/soldadokallejeroofficial" target="_blank">
+        <i class="fab fa-facebook">&nbsp;</i>Facebook
+        <a class="link" href="https://twitter.com/SoldadoKllejero" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+        <a class="link" href="https://www.tiktok.com/@soldadokallejero13" target="_blank">
+        <i class="fab fa-tiktok">&nbsp;</i>TikTok
+        <a class="link" href="https://www.threads.net/@soldadokallejero13" target="_blank">
+        <i class="fab fa-at">&nbsp;</i>Threads
+      </a>
+    </div>
+
+    <div id="hashtag">
+      DOBLE C FAMILY
+    </div>
+    <div id="ultimo"></div>
+
+  </body>
+</html>
